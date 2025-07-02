@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Cadastro de Automóveis</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Cadastro de Automóveis</h1>
+    <input type="text" id="marca" placeholder="Marca">
+    <input type="text" id="modelo" placeholder="Modelo">
+    <input type="number" id="ano" placeholder="Ano">
+    <input type="text" id="cor" placeholder="Cor">
+    
+    <div class="botoes">
+      <button onclick="incluir()">Incluir</button>
+      <button onclick="editar()">Editar</button>
+      <button onclick="remover()">Remover</button>
+    </div>
+    
+    <div class="botoes">
+      <button onclick="anterior()">⬅ Anterior</button>
+      <button onclick="proximo()">Próximo ➡</button>
+    </div>
+
+    <p id="posicaoAtual"></p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
